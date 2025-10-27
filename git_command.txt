@@ -1,0 +1,26 @@
+- Tao user.name, user.email
+git config --global user.name ""
+git config --global user.email ""
+
+- Check user.name, user.email
+git config --global user.name
+git config --global user.email
+
+- Xoa  user.name, user.email
+git config --global unset user.name
+git config --global unset user.email
+
+bo global de tao trong project hien tai
+
+-Tao key ssh, Open git bash
+ssh-keygen -t ed25519 -C "nguyenngu191202@gmail.com"           => tao ssh key
+cat + "duong dan den public key"                                => lay public key
+ssh -T git@github.com                                           => check ket noi
+
+- Chuyen file tu working area -> index (staging area)
+git add filename.type        => add 1 file cu the 
+git add .                       => add tat ca file da thay doi
+git add src/                    => add toan bo folder
+
+- chuyen file tu index => local repo
+git commit -m ""
