@@ -24,3 +24,9 @@ git add src/                    => add toan bo folder
 
 - chuyen file tu index => local repo
 git commit -m ""
+
+- Git log 
+git log                     => xem toan bo lich su
+git log --oneline           => hien thi 1 dong/ 1 commit
+git log -3                  => xem 3 commits gan nhat
+git log --author=''         => xem commits cua nguoi cu the
