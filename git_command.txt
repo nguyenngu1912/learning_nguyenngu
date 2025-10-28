@@ -38,3 +38,10 @@ git remote remove remote_name                           xoa remote
 
 - Day code len github
 git push -u origin main                                 chay lan dau tien, -u: thiet lap tracking
+
+- Git pull, git fetch
+git pull = git fetch + git merge
+git pull                                                lay truc tiep ve working area
+git fetch                                               lay ve local
+git merge                                               tu local lay ve working area
+git pull remote branch                                  Pull tu remote va branch cu the
