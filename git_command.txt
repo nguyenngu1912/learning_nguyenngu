@@ -30,3 +30,11 @@ git log                     => xem toan bo lich su
 git log --oneline           => hien thi 1 dong/ 1 commit
 git log -3                  => xem 3 commits gan nhat
 git log --author=''         => xem commits cua nguoi cu the
+
+- git remote -v                                         kiem tra ket noi 
+git remote add <name> <url>                             ten remote thuong de la origin
+git remote rename <old_name> <new_name>                 thay doi ten remote
+git remote remove remote_name                           xoa remote
+
+- Day code len github
+git push -u origin main                                 chay lan dau tien, -u: thiet lap tracking
