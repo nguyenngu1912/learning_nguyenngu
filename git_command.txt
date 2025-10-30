@@ -33,6 +33,7 @@ git log --author=''         => xem commits cua nguoi cu the
 
 - git remote -v                                         kiem tra ket noi 
 git remote add <name> <url>                             ten remote thuong de la origin
+git remote add origin git@github.com:nguyenngu1912/learning_nguyenngu.git
 git remote rename <old_name> <new_name>                 thay doi ten remote
 git remote remove remote_name                           xoa remote
 
@@ -45,3 +46,13 @@ git pull                                                lay truc tiep ve working
 git fetch                                               lay ve local
 git merge                                               tu local lay ve working area
 git pull remote branch                                  Pull tu remote va branch cu the
+
+- Git Head
+git checkout main                                       #HEAD => main
+git switch <ten nhanh>                                  #HEAD => feature (git 2.23 +)
+git checkout [commit]                                   detached head tai commit 
+git checkout Head~1                                     di chuyen ve 1 commit trc do 
+git checkout Head~3                                     di chuyen ve 3 commit trc do
+
+git branch <new branch>                                 tao nhanh moi sau khi checkout de save commit
+git switch <new branch>    
