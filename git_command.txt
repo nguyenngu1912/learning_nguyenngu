@@ -66,4 +66,4 @@ git fetch name_of_repo
 git checkout name_of_repo/main -- pathtofile
 
 - Push len repo khac: 
-
+test
